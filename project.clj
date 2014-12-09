@@ -9,7 +9,7 @@
                  [manifold "0.1.0-beta5"]
                  [byte-streams "0.2.0-alpha4"]
                  [potemkin "0.3.11"]]
-  :profiles {:dev {:dependencies [[org.clojure/clojure "1.7.0-alpha2"]
+  :profiles {:dev {:dependencies [#_[org.clojure/clojure "1.7.0-alpha2"]
                                   [criterium "0.4.3"]
                                   #_[codox-md "0.2.0" :exclusions [org.clojure/clojure]]]}}
   :codox {;:writer codox-md.writer/write-docs
